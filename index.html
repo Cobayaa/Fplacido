@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fray Plácido</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+           
+        <h1 class="logoandimg" data-aos="fade-right">Fray</h1>
+        
+        <div class="nav">
+            <ul data-aos="fade-right"> 
+                <li><a href="#mon" class="active">Inicio</a></li>
+                <li><a href="#rutas">Rutas</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">mensaje</a></li>
+            </ul>
+        </div>
+        
+        <button class="darkswitch activated" id="switch" data-aos="fade-right">
+            <span><ion-icon name="sunny-outline"></ion-icon></span>
+            <span><ion-icon name="moon-outline"></ion-icon></span>
+        </button>
+    </div>
+    <div id="mon"></div>
+	<div class="header" data-aos="fade-down" data-aos-offset="500"
+    data-aos-easing="ease-in-sine">
+
+    <div class="moon" id="moon"></div>
+        <h1 class="bra" data-aos="fade-right" data-aos-offset="300"
+        data-aos-easing="ease-in-sine" 
+        >¡Estudien, vagos!</h1>
+        <h1 class="brand" id="brand" data-aos="fade-left" data-aos-offset="300"
+        data-aos-easing="ease-in-sine" 
+        >Eres una Luna Brillante</h1>
+        <img class="img" src="/images/undraw_road.svg">
+        <img class="img2" src="/images/undraw.svg">
+	</div>
+    <div class="text-parallax" data-aos="fade-left" data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+        <div class="boxes">
+            <div class="box1">
+                <h3>No comer en clase</h3>
+                <ion-icon class="icons" name="fast-food-outline"></ion-icon>
+            </div>
+            <div class="box2">
+                <h3 class="h31">Limpieza en clase</h3>
+                <ion-icon class="icons1" name="trash-outline"></ion-icon>
+            </div>
+            <div class="box3">
+                <h3 class="h32">Buen comportamiento</h3>
+                <ion-icon class="icons2" name="happy-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <div class="testo" id="rutas" data-aos="fade-right" data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+        <h1 class="dd">Fray Plácido Virtual</h1>
+        <p class="rr">Rutas de Contenido</p>
+    </div>
+    <div class="links" data-aos="fade-down" data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+        <div class="moodle">
+            <h4 class="mood">Moodle.</h4>
+            <a href="192.168.100.125/moodle" class="route" target="_blank">192.168.100.125/moodle</a>
+        </div>
+        <div class="elgg">
+            <h4 class="elg">Elgg.</h4>
+            <a href="192.168.100.125/elgg" class="route2" target="_blank">192.168.100.125/elgg</a>
+        </div>
+        <div class="limesurvey">
+            <h4 class="lime">Limesurvey.</h4>
+            <a href="192.168.100.125/limesurvey" class="route3" target="_blank">192.168.100.125/limesurvey</a>
+        </div>
+        <div class="kiwix">
+            <h4 class="kiwi">Kiwix.</h4>
+            <a href="192.168.100.125:8000" class="route4" target="_blank">192.168.100.125:8000</a>
+        </div>
+    </div>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="dynamic.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="/dynamic.js">
+</script>
+</body>
+</html>
