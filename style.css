@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 body{
     background: whitesmoke;
-    transition: .5s;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    transition: 0.5s ease-in-out;
 }
 
 
@@ -200,6 +200,7 @@ body.dark .boton{
     text-align: center;
     background-size: contain;
     justify-content: center;
+    pointer-events: none;
     align-items: center;
     z-index: 6;
 }
@@ -221,6 +222,7 @@ body.dark .img{
     text-align: center;
     display: none;
     background-size: contain;
+    pointer-events: none;
     justify-content: center;
     align-items: center;
     z-index: 6;
@@ -716,6 +718,156 @@ body.dark .brand{
     text-align: center;
     text-shadow: 1px 1px 2px rgba(227, 255, 68, 0.877);
 }
+
+.triki-box{
+    position: relative;
+    font-size: 3em;
+    color: white;
+    background: royalblue;
+    text-align: center;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+}
+.triki{
+    position: relative;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    z-index: 6;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em;
+    margin-top: -0%;
+    z-index: 6;
+    background: whitesmoke;
+}
+body.dark .contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em;
+    margin-top: -0%;
+    z-index: 6;
+    background: #050122;
+}
+
+#description {
+    font-size: 4em;
+    color: black;
+    background: whitesmoke;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    height: 50px;
+    margin-bottom: 3%;
+    z-index: 6;
+}
+
+body.dark #description {
+    font-size: 4em;
+    margin-top: 1%;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    color: white;
+    background: #050122;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    height: 50px;
+    z-index: 6;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 6;
+    background: whitesmoke;
+}
+body.dark .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 6;
+    background: #050122;
+}
+.rous{
+    position: relative;
+}
+body.dark .rous{
+    position: relative;
+    margin-top: -3%;
+}
+.square {
+    width: 122px;
+    height: 122px;
+    background: white;
+    border-radius: 16px;
+    border: 4px solid rgb(0, 0, 0);
+    margin: 4px;
+    z-index: 6;
+}
+body.dark .square {
+    width: 122px;
+    height: 122px;
+    background: white;
+    border-radius: 16px;
+    border: 4px solid rgb(255, 255, 255);
+    margin: 4px;
+    z-index: 6;
+    background: #715fff;
+}
+.highlight {
+    border-color: royalblue;
+}
+body.dark .highlight {
+    border-color: yellow;
+}
+
+.nada{
+    position: relative;
+    padding-top: 5%;
+}
+.nosotros{
+    position: relative;
+    padding: 10% 2%;
+    background-color: #f5f5ff;
+    opacity: 1;
+    background-image: radial-gradient(#2d11ed 2px, #f5f5ff 2px);
+    background-size: 40px 40px;
+}
+body.dark .nosotros{
+    position: relative;
+    padding: 10% 2%;
+    background-color: #000010;
+opacity: 1;
+background-image: radial-gradient(#7c11ed 2px, #000010 2px);
+background-size: 40px 40px;
+}
+.ww{
+    position: relative;
+    font-size: 5rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+body.dark .ww{
+    position: relative;
+    font-size: 5rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+
 
 
 
